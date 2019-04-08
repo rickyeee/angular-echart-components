@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to echarts-components!');
+    expect(page.getTitleText()).toEqual('Welcome to angular-echart-components!');
   });
 
   afterEach(async () => {
